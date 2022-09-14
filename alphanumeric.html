@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>alpha</title>
+</head>
+<body>
+<input type="text" name="inputtxt" id="inputtxt">
+<button onclick="alphanumeric()">click</button>
+<script>
+function alphanumeric(inputtxt)
+{
+   var inputtxt=document.getElementById("inputtxt");
+   var letterNumber = /^[0-9a-zA-Z]+$/;
+   if(inputtxt.value.match(letterNumber))
+  {
+     alert("true");
+  }
+  else
+ {
+   alert("false");
+   
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+div{
+ border-left: 7px solid rgb(23,4,79);
+ border-right: 7px solid rgb(23,4,79);
+ border-top: 8px solid rgb(23,4,79);
+ border-bottom: 10px solid rgb(23,4,79);
+ padding: 5px;
+ margin: 100px;
+ width: 200px;
+ display: inline-block;
+}
+h3{
+ color:rgb(23, 69, 160);
+}
+label{
+ color: rgb(113, 134, 173);
+}
+button{
+ background-color:rgb(37, 104, 248);
+ color: aliceblue;
+ border-color: cornflowerblue;
+ box-shadow: 2em;
+ text-shadow: 2px;
+ display:inline-block;
+ border-radius: 15px;
+ text-align:center;
+ cursor: pointer;
+}
